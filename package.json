@@ -1,0 +1,39 @@
+{
+  "name": "ow2mirror",
+  "version": "0.0.1",
+  "description": "Mirroring OW2 Repositories",
+  "author": "Christophe Hamerling <christophe.hamerling@ow2.org>",
+  "homepage": "http://github.com/ow2/ow2mirror-node",
+  "keywords": [
+    "node"
+  ],
+  "maintainers": [{
+    "name": "Christophe Hamerling",
+    "email": "christophe.hamerling@ow2.com"
+  }],
+  "contributors": [],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://mths.be/mit"
+  }],
+  "bugs": {
+    "url": "https://github.com/ow2/ow2mirror/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ow2/ow2mirror.git"
+  },
+  "engines": {
+    "node": "0.6.x",
+    "npm": "1.0.x"
+  },
+  "dependencies": {
+    "underscore": "*",
+    "express": "3.0",
+    "github" : "*",
+    "optimist": "0.3.4",
+    "async" : "*",
+    "shelljs" : "*",
+    "colors" : "*"
+  }
+}

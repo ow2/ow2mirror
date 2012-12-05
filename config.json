@@ -1,0 +1,42 @@
+{
+  "path" : "/opt/ow2mirror/",
+
+  "source" : {
+    "type" : "git",
+    "config" : {
+      "repository" : "git://github.com/ow2/ow2-mirror-config.git"
+    }
+  },
+
+  "destination" : {
+    "type" : "github",
+    "config" : {
+      "type" : "basic",
+      "username" : "ow2-mirror",
+      "password" : "XXXXX"
+    }
+  },
+
+  "notifiers" : [
+    {
+      "type" : "irc",
+      "active" : false,
+      "config" : {
+        "channel" : "",
+        "server" : "",
+        "port" : 971
+      }
+    },
+    {
+      "type" : "mail",
+      "active" : false,
+      "config" : {
+        "recipient" : "foo@gmail.com",
+        "from" : "mirror@ow2.org",
+        "smtp" : "",
+        "login" : "",
+        "password" : ""
+      }
+    }
+  ]
+}
